@@ -1,6 +1,0 @@
-python-osc
-ipycanvas
-matplotlib
-jupyterlab
-ipywidgets
--e /Users/danielstahl/Documents/Projects/py-soundmining-tools
