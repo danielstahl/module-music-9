@@ -30,9 +30,10 @@ class PieceV2:
 
     def reset(self) -> None:
         self.synth_player.client.send_message(supercollider_client.clear_sched())
-        self.synth_player.client.send_message(supercollider_client.deep_free(0))        
+        self.synth_player.client.send_message(supercollider_client.deep_free(0))
         self.audio_bus_allocator.reset_allocations()
         self.supercollider_client.reset_clock()
+        self.synth_player.supercollider_score.reset()
 
     def reset_deep(self) -> None:
         instrument.setup_nodes(self.supercollider_client)

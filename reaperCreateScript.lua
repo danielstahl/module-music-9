@@ -28,7 +28,7 @@ audioFile = "/Users/danielstahl/Documents/Music/Pieces/Module Music/Module Music
 CreateFolder(0, "Low")
 ImportAudio(1, 1, "Low Sine", audioFile, false)
 ImportAudio(2, 3, "Low Short Sine", audioFile, false)
-ImportAudio(3, 4, "Low Saw", audioFile, true)
+ImportAudio(3, 5, "Low Saw", audioFile, true)
 
 CreateFolder(4, "Middle Low")
 ImportAudio(5, 7, "Middle Low Sine", audioFile, false)
